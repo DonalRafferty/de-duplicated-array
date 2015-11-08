@@ -1,0 +1,37 @@
+{
+  "name": "de-duplicated-array",
+  "version": "0.0.1",
+  "description": "A simple example of a function to de-duplicate arrays in JavaScript (Nodejs project)",
+  "main": "main.js",
+  "author": "Donal Rafferty",
+  "config": {
+    "blanket": {
+      "pattern": [
+        "app"
+      ]
+    }
+  },
+  "scripts": {
+    "test": "npm run single-server",
+    "test-server": "grunt watch",
+    "single-server": "grunt mocha-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "chai": "~3.0.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-cov": "^0.4.0",
+    "grunt-simple-mocha": "~0.4.0",
+    "mocha": "~2.2.5",
+    "sinon": "~1.15.4"
+  },
+  "dependencies": {
+    "yargs": "^3.29.0"
+  }
+}

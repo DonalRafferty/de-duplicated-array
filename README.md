@@ -1,4 +1,4 @@
-# Array Flatten Exercise
+# De-duplicate Array Exercise
 
 This is a simple Nodejs application that is an exercise in writing a utility function to take an array of numbers and removes duplicates from the array
 
